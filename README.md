@@ -19,18 +19,76 @@ SCANIT is an intelligent web application that helps you understand exactly what'
 - **Icons:** Lucide React
 - **AI Integration:** Google Gemini API
 
+
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally on your machine.
+### 1. Clone the repository
 
-### Prerequisites
+```bash
+git clone https://github.com/YOUR_USERNAME/Scan-It.git
+cd Scan-It
+```
 
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- npm or yarn
+---
 
-### Installation
+### 2. Install dependencies
 
-1. **Clone the repository** (if you haven't already):
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/scanit.git
-   cd scanit
+```bash
+npm install
+```
+
+---
+
+### 3. Set up environment variables
+
+Create a `.env.local` (or `.env`) file in the root directory and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+> ⚠️ Get your API key from Google AI Studio
+
+---
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+### 5. Open the app
+
+Visit:
+
+👉 [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📂 Project Structure
+
+```
+scanit/
+│── src/
+│── components/
+│── lib/
+│── server.ts
+│── package.json
+│── vite.config.ts
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
