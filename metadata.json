@@ -1,0 +1,7 @@
+{
+  "name": "ScanIt",
+  "description": "Ingredient Decoder App that scans product labels and identifies harmful ingredients using Gemini API.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
